@@ -1,0 +1,103 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f4266;
+  --grey: #2e2f42b2;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--navy-blue);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 72px;
+  width: 100%;
+}
+
+header,
+nav,
+nav ul,
+address ul {
+  align-items: center;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 0 56px 0 156px;
+  text-transform: uppercase;
+}
+
+footer .logo {
+  color: var(--cloud);
+}
+
+nav {
+  font-weight: 500;
+}
+
+header li {
+  padding: 0 20px;
+  list-style-type: none;
+}
+
+address {
+  padding: 0 136px 0 292px;
+}
+
+address,
+p {
+  color: var(--slate);
+}
+
+.starting-section {
+  align-items: center;
+  background-color: var(--navy-blue);
+  color: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 600px;
+}
+
+.starting-section > div {
+  width: 496px;
+}
+
+.starting-section > div > div {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+
+h1 {
+  font-size: 56px;
+  text-align: center;
+  width: 496px;
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+}
