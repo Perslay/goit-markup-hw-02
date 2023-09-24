@@ -22,6 +22,7 @@ body {
   background-color: var(--white);
   color: var(--navy-blue);
   font-family: "Roboto", "Times New Roman", sans-serif;
+  letter-spacing: 0.32px;
   line-height: 1.5;
 }
 
@@ -54,38 +55,33 @@ address a {
   font-style: normal;
 }
 
-a.logo:focus,
-a.logo:hover,
-nav a:focus,
-nav a:hover {
-  color: var(--navy-blue-modal);
-}
-
-address a:focus,
-address a:hover {
-  color: var(--light-slate);
+a:focus,
+a:hover,
+footer a:focus,
+footer a:hover {
+  color: var(--iris);
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
+  letter-spacing: 0.54px;
   line-height: 1.17;
   padding: 0 56px 0 156px;
   text-transform: uppercase;
-}
-
-footer .logo {
-  color: var(--cloud);
 }
 
 nav {
   font-weight: 500;
 }
 
+li {
+  list-style-type: none;
+}
+
 header li {
   padding: 0 20px;
-  list-style-type: none;
 }
 
 address {
@@ -119,6 +115,7 @@ p {
 
 h1 {
   font-size: 56px;
+  letter-spacing: 1.12px;
   line-height: 1.07;
   text-align: center;
   width: 496px;
@@ -132,6 +129,137 @@ button {
   color: var(--white);
   cursor: pointer;
   font-family: "Roboto", "Times New Roman", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.64px;
   line-height: 1.5;
   padding: 16px 32px;
+}
+
+.traits-section {
+  padding: 120px 132px;
+}
+
+h2 {
+  color: var(--navy-blue);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.traits-section h2 {
+  display: none;
+}
+
+.traits-section ul {
+  display: flex;
+}
+
+.traits-section li {
+  padding: 0 12px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  padding-bottom: 8px;
+}
+
+.work-section ul {
+  display: flex;
+  justify-content: center;
+  padding: 72px 144px 120px;
+}
+
+.work-section li {
+  padding: 0 12px;
+}
+
+.team-section {
+  background-color: var(--cloud);
+  padding: 120px 144px;
+}
+
+.team-section h2 {
+  padding-bottom: 72px;
+}
+
+.team-section ul {
+  display: flex;
+  justify-content: center;
+}
+
+.team-section li {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  margin: 0 12px;
+}
+
+.team-section div {
+  padding: 32px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--navy-blue);
+  padding: 101.5px 0 100px 0;
+}
+
+footer .logo {
+  color: var(--cloud);
+  padding: 0 0 17.5px 156px;
+}
+
+footer p {
+  color: var(--cloud);
+  width: 264px;
+  padding: 17.5px 0 0 156px;
+}
+
+.buttons-section ul {
+  display: flex;
+  justify-content: center;
+  padding: 96px 0 72px 0;
+}
+
+.buttons-section li {
+  padding: 0 12px;
+}
+
+.buttons-section button {
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+  color: var(--iris);
+}
+
+.buttons-section button:hover,
+.buttons-section button:hover {
+  background-color: var(--ocean);
+  border-color: var(--ocean);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  color: var(--white);
+}
+
+.portfolio-images-section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 96px;
+}
+
+.portfolio-images-section li {
+  border: 1px solid var(--cornflower);
+  margin: 24px 12px;
+}
+
+.portfolio-images-section div {
+  padding: 32px 16px;
 }
