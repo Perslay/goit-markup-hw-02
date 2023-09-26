@@ -13,29 +13,14 @@
   --dairy: #fcfcfc;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: var(--white);
   color: var(--slate);
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.32px;
-  line-height: 1.5;
 }
 
 .link {
-  color: var(--iris);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 0.54px;
-  line-height: 1.17;
-  padding: 0 56px 0 156px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .link:hover,
@@ -43,12 +28,22 @@ body {
   color: var(--ocean);
 }
 
+.logo {
+  color: var(--iris);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
 .accent {
   color: var(--navy-blue);
 }
 
 .nav-link {
-  color: var(--navy-blue-modal);
+  color: var(--navy-blue);
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -63,20 +58,11 @@ body {
   font-style: normal;
 }
 
-.address-list-item {
+.address-link {
   color: var(--slate);
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-}
-
-.starting-section {
-  align-items: center;
-  background-color: var(--navy-blue);
-  display: flex;
-  flex-wrap: wrap;
-  height: 600px;
-  justify-content: center;
 }
 
 .first-heading {
@@ -85,7 +71,6 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
-  width: 496px;
 }
 
 .main-button {
@@ -104,11 +89,8 @@ body {
   background-color: var(--ocean);
 }
 
-.traits-section {
-  padding: 120px 132px;
-}
-
 .third-heading {
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -132,16 +114,22 @@ body {
   text-transform: capitalize;
 }
 
-.team-list-item {
+.team-section {
   background-color: var(--cloud);
+}
+
+.team-list-item {
+  background-color: var(--white);
 }
 
 .footer {
   background-color: var(--navy-blue);
 }
 
-.footer .accent {
+.footer .paragraph {
   color: var(--cloud);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* portfolio */
