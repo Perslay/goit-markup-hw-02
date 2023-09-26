@@ -30,7 +30,7 @@ body {
 
 .logo {
   color: var(--iris);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.03em;
@@ -146,7 +146,7 @@ body {
   background-color: var(--cloud);
   color: var(--iris);
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -160,6 +160,7 @@ body {
 }
 
 .portfolio-second-heading {
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.02em;
