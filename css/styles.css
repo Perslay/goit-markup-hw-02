@@ -159,8 +159,9 @@ body {
   color: var(--white);
 }
 
-.portfolio-h2 {
+.portfolio-second-heading {
   font-size: 20px;
   font-weight: 500;
+  letter-spacing: 0.02em;
   line-height: 1.2;
 }
